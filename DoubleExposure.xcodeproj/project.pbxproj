@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD659C491A70D524008FF170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD659C481A70D524008FF170 /* AppDelegate.m */; };
+		FD659C4B1A70D524008FF170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD659C4A1A70D524008FF170 /* main.m */; };
+		FD659C4E1A70D524008FF170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD659C4D1A70D524008FF170 /* ViewController.m */; };
+		FD659C501A70D524008FF170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD659C4F1A70D524008FF170 /* Images.xcassets */; };
+		FD659C531A70D524008FF170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD659C511A70D524008FF170 /* Main.storyboard */; };
+		FD659C5F1A70D524008FF170 /* DoubleExposureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD659C5E1A70D524008FF170 /* DoubleExposureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD659C591A70D524008FF170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD659C3A1A70D524008FF170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD659C411A70D524008FF170;
+			remoteInfo = DoubleExposure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD659C421A70D524008FF170 /* DoubleExposure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleExposure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD659C461A70D524008FF170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD659C471A70D524008FF170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD659C481A70D524008FF170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD659C4A1A70D524008FF170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD659C4C1A70D524008FF170 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD659C4D1A70D524008FF170 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD659C4F1A70D524008FF170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD659C521A70D524008FF170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD659C581A70D524008FF170 /* DoubleExposureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleExposureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD659C5D1A70D524008FF170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD659C5E1A70D524008FF170 /* DoubleExposureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleExposureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD659C3F1A70D524008FF170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD659C551A70D524008FF170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD659C391A70D524008FF170 = {
+			isa = PBXGroup;
+			children = (
+				FD659C441A70D524008FF170 /* DoubleExposure */,
+				FD659C5B1A70D524008FF170 /* DoubleExposureTests */,
+				FD659C431A70D524008FF170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD659C431A70D524008FF170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD659C421A70D524008FF170 /* DoubleExposure.app */,
+				FD659C581A70D524008FF170 /* DoubleExposureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD659C441A70D524008FF170 /* DoubleExposure */ = {
+			isa = PBXGroup;
+			children = (
+				FD659C471A70D524008FF170 /* AppDelegate.h */,
+				FD659C481A70D524008FF170 /* AppDelegate.m */,
+				FD659C4C1A70D524008FF170 /* ViewController.h */,
+				FD659C4D1A70D524008FF170 /* ViewController.m */,
+				FD659C4F1A70D524008FF170 /* Images.xcassets */,
+				FD659C511A70D524008FF170 /* Main.storyboard */,
+				FD659C451A70D524008FF170 /* Supporting Files */,
+			);
+			path = DoubleExposure;
+			sourceTree = "<group>";
+		};
+		FD659C451A70D524008FF170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD659C461A70D524008FF170 /* Info.plist */,
+				FD659C4A1A70D524008FF170 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD659C5B1A70D524008FF170 /* DoubleExposureTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD659C5E1A70D524008FF170 /* DoubleExposureTests.m */,
+				FD659C5C1A70D524008FF170 /* Supporting Files */,
+			);
+			path = DoubleExposureTests;
+			sourceTree = "<group>";
+		};
+		FD659C5C1A70D524008FF170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD659C5D1A70D524008FF170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD659C411A70D524008FF170 /* DoubleExposure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD659C621A70D524008FF170 /* Build configuration list for PBXNativeTarget "DoubleExposure" */;
+			buildPhases = (
+				FD659C3E1A70D524008FF170 /* Sources */,
+				FD659C3F1A70D524008FF170 /* Frameworks */,
+				FD659C401A70D524008FF170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleExposure;
+			productName = DoubleExposure;
+			productReference = FD659C421A70D524008FF170 /* DoubleExposure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD659C571A70D524008FF170 /* DoubleExposureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD659C651A70D524008FF170 /* Build configuration list for PBXNativeTarget "DoubleExposureTests" */;
+			buildPhases = (
+				FD659C541A70D524008FF170 /* Sources */,
+				FD659C551A70D524008FF170 /* Frameworks */,
+				FD659C561A70D524008FF170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD659C5A1A70D524008FF170 /* PBXTargetDependency */,
+			);
+			name = DoubleExposureTests;
+			productName = DoubleExposureTests;
+			productReference = FD659C581A70D524008FF170 /* DoubleExposureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD659C3A1A70D524008FF170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ralf Cheung";
+				TargetAttributes = {
+					FD659C411A70D524008FF170 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD659C571A70D524008FF170 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD659C411A70D524008FF170;
+					};
+				};
+			};
+			buildConfigurationList = FD659C3D1A70D524008FF170 /* Build configuration list for PBXProject "DoubleExposure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD659C391A70D524008FF170;
+			productRefGroup = FD659C431A70D524008FF170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD659C411A70D524008FF170 /* DoubleExposure */,
+				FD659C571A70D524008FF170 /* DoubleExposureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD659C401A70D524008FF170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD659C501A70D524008FF170 /* Images.xcassets in Resources */,
+				FD659C531A70D524008FF170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD659C561A70D524008FF170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD659C3E1A70D524008FF170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD659C4E1A70D524008FF170 /* ViewController.m in Sources */,
+				FD659C4B1A70D524008FF170 /* main.m in Sources */,
+				FD659C491A70D524008FF170 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD659C541A70D524008FF170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD659C5F1A70D524008FF170 /* DoubleExposureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD659C5A1A70D524008FF170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD659C411A70D524008FF170 /* DoubleExposure */;
+			targetProxy = FD659C591A70D524008FF170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD659C511A70D524008FF170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD659C521A70D524008FF170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD659C601A70D524008FF170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD659C611A70D524008FF170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD659C631A70D524008FF170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleExposure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD659C641A70D524008FF170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleExposure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD659C661A70D524008FF170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubleExposureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleExposure.app/Contents/MacOS/DoubleExposure";
+			};
+			name = Debug;
+		};
+		FD659C671A70D524008FF170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DoubleExposureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleExposure.app/Contents/MacOS/DoubleExposure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD659C3D1A70D524008FF170 /* Build configuration list for PBXProject "DoubleExposure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD659C601A70D524008FF170 /* Debug */,
+				FD659C611A70D524008FF170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD659C621A70D524008FF170 /* Build configuration list for PBXNativeTarget "DoubleExposure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD659C631A70D524008FF170 /* Debug */,
+				FD659C641A70D524008FF170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD659C651A70D524008FF170 /* Build configuration list for PBXNativeTarget "DoubleExposureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD659C661A70D524008FF170 /* Debug */,
+				FD659C671A70D524008FF170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD659C3A1A70D524008FF170 /* Project object */;
+}
